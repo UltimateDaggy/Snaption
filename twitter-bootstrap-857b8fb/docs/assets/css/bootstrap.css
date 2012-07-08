@@ -67,9 +67,11 @@ sub {
 }
 
 img {
-  max-width: 100%;
-  vertical-align: middle;
-  border: 0;
+	max-width: 100%;
+	vertical-align: middle;
+
+
+
   -ms-interpolation-mode: bicubic;
 }
 
@@ -156,13 +158,14 @@ textarea {
 }
 
 body {
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  color: #333333;
-  background-color: #ffffff;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333333;
 }
+
+
 
 a {
   color: #0088cc;
@@ -241,7 +244,7 @@ a:hover {
 }
 
 .span2 {
-  width: 140px;
+	width: 140px;
 }
 
 .span1 {
@@ -421,7 +424,7 @@ a:hover {
 }
 
 p {
-  margin: 0 0 9px;
+	margin: 0 0 9px;
 }
 
 p small {
