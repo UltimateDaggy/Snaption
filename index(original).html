@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link href="Style Sheet/Style Sheet.css" rel="stylesheet" type="text/css" />
+<link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+<link href="css/sample_lightbox_layout.css" rel="stylesheet" type="text/css" />
+<script src="scripts/jquery.js" type="text/javascript"></script>
+<script src="scripts/lightbox.js" type="text/javascript"></script>
+
+<script type="text/xml">
+<!--
+<oa:widgets>
+  <oa:widget wid="2127022" binding="#gallery" />
+  <oa:widget wid="2127022" binding="#gallery_2" />
+</oa:widgets>
+-->
+</script>
+<style type="text/css">
+/* BeginOAWidget_Instance_2127022: #gallery_2 */
+
+		.lbGallery { 
+			/*gallery container settings*/
+			background-color: #CCC;
+			padding-left: 20px;  
+			padding-top: 20px;  
+			padding-right: 20px;  
+			padding-bottom: 20px;  
+			width: 50%;
+			height: auto;
+			text-align:left;
+		}
+		.lbGallery ul { list-style: none; margin:0;padding:0; }
+		.lbGallery ul li { display: inline;margin:0;padding:0; }
+		.lbGallery ul li a{text-decoration:none;}
+			
+		.lbGallery ul li a img {
+			/*border color, width and margin for the images*/
+			border-color: #3e3e3e;
+			border-left-width: 10px;
+			border-top-width: 10px;
+			border-right-width: 10px;
+			border-bottom-width: 20px;
+			margin-left:5px;
+			margin-right:5px;
+			margin-top:5px;
+			margin-bottom:5px:
+			}
+			
+		.lbGallery ul li a:hover img {	
+			/*background color on hover*/
+			border-color: #ffffff;
+			border-left-width: 10px;
+			border-top-width: 10px;
+			border-right-width: 10px;
+			border-bottom-width: 20px;
+		}
+			
+		#lightbox-container-image-box {
+			border-top: 0px none #ffffff;
+			border-right: 0px none #ffffff;
+			border-bottom: 0px none #ffffff;
+			border-left: 0px none #ffffff;
+			}
+			
+		#lightbox-container-image-data-box { 
+			border-top: 0px;
+			border-right: 0px none #ffffff;
+			border-bottom: 0px none #ffffff;
+			border-left: 0px none #ffffff;
+			}
+/* EndOAWidget_Instance_2127022 */
+</style>
+<link href="Style Sheet.css" rel="stylesheet" type=."text/css" />
+</head>
+
+<body>
+
+<div id="TextL">
+<img src="Images/Text1.png" width="150" height="auto" />
+</div>
+
+<div id="TextR"></p>
+  <img src="Images/Text2.png" width="150" height="auto" />  </div>
+
+<div id="TextR2">
+  <p>devfdv dushia uhivuash fb avsa cgysaguc ygdsauyga v
+</p>
+	</div>
+
+<div id="gallery_2" class="lbGallery">
+  <ul>
+    <li> <a href="images.jpg" title=""><img src="images.jpg" width="259" height="194" alt="" /></a> </li>
+    <li> <a href="/images/lightboxdemo2.jpg" title=""><img src="/images/lightboxdemo_thumb2.jpg" width="72" height="72" alt="Tree" /></a> </li>
+    <li> <a href="/images/lightboxdemo3.jpg" title=""><img src="/images/lightboxdemo_thumb3.jpg" width="72" height="72" alt="" /></a> </li>
+    <li> <a href="/images/lightboxdemo4.jpg" title=""><img src="/images/lightboxdemo_thumb4.jpg" width="72" height="72" alt="" /></a> </li>
+    <li> <a href="/images/lightboxdemo5.jpg" title=""><img src="/images/lightboxdemo_thumb5.jpg" width="72" height="72" alt="" /></a> </li>
+  </ul>
+</div>
+<p>
+  <script type="text/javascript">
+// BeginOAWidget_Instance_2127022: #gallery_2
+
+		$(function(){
+			$('#gallery_2 a').lightBox({ 
+				imageLoading:			'/images/lightbox/lightbox-ico-loading.gif',		// (string) Path and the name of the loading icon
+				imageBtnPrev:			'/images/lightbox/lightbox-btn-prev.gif',			// (string) Path and the name of the prev button image
+				imageBtnNext:			'/images/lightbox/lightbox-btn-next.gif',			// (string) Path and the name of the next button image
+				imageBtnClose:			'/images/lightbox/lightbox-btn-close.gif',		// (string) Path and the name of the close btn
+				imageBlank:				'/images/lightbox/lightbox-blank.gif',			// (string) Path and the name of a blank image (one pixel)
+				fixedNavigation:		false,		// (boolean) Boolean that informs if the navigation (next and prev button) will be fixed or not in the interface.
+				containerResizeSpeed:	400,			 // Specify the resize duration of container image. These number are miliseconds. 400 is default.
+				overlayBgColor: 		"#999999",		// (string) Background color to overlay; inform a hexadecimal value like: #RRGGBB. Where RR, GG, and BB are the hexadecimal values for the red, green, and blue values of the color.
+				overlayOpacity:			.6,		// (integer) Opacity value to overlay; inform: 0.X. Where X are number from 0 to 9
+				txtImage:				'Image',				//Default text of image
+				txtOf:					'of'
+			});
+		});
+		
+// EndOAWidget_Instance_2127022
+</script>
+  </div>
+
+</body>
+</html>

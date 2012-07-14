@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background: #717171;
+	font:"Arial Black", Gadget, sans-serif;
+	font-size: 24px;
+	text-align: left;
+	margin-left:5%;
+	margin-right: 5%;
+}
+
+#TextL
+{
+	Float: left;
+}
+
+#gallery_2
+{
+	Float:left;
+	margin-left: 50px;
+}
+
+
+#TextR
+{
+	Float: right;
+}
+
+#TextR2
+{
+	Float: left;
+	padding-right: 50px;
+}
+
+#Navigation
+{
+	Float: left;
+	Padding-top: 5px;
+	margin-top: 5px;
+	width: 200px;
+	background: #FFF;
+}

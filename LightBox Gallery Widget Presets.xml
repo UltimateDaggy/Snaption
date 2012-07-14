@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+  <id><![CDATA[2127022]]></id>
+  <version><![CDATA[1.0]]></version>
+  <name><![CDATA[LightBox Gallery Widget]]></name>
+  <presets>
+    <preset name="Snaption Gallery">
+      <description/>
+      <properties>
+        <property name="__lightboxBorderWidth__" value="1px"/>
+        <property name="fixedNavigation" value="false"/>
+        <property name="galleryPaddingLeft" value="10px"/>
+        <property name="__textAlign__" value="center"/>
+        <property name="galleryPaddingTop" value="10px"/>
+        <property name="overlayBackground" value="#798cb9"/>
+        <property name="__lightboxBorderStyle__" value="solid"/>
+        <property name="thumbDefaultBorderColor" value="#ffffff"/>
+        <property name="galleryPaddingBottom" value="10px"/>
+        <property name="galleryPaddingRight" value="10px"/>
+        <property name="galleryBackground" value="#333333"/>
+        <property name="galleryWidth" value="340px"/>
+        <property name="thumbDefaultBorderWidthLeft" value="10px"/>
+        <property name="__lightboxBorderColor__" value="#cccccc"/>
+        <property name="__txtimage__" value="Meme"/>
+        <property name="thumbHoverBorderColor" value="#cccccc"/>
+      </properties>
+    </preset>
+  </presets>
+</widget>
